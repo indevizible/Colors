@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF82CC2C1C1C10A400F57528 /* Colors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF82CC211C1C10A400F57528 /* Colors.framework */; settings = {ASSET_TAGS = (); }; };
+		FF82CC2C1C1C10A400F57528 /* Colors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF82CC211C1C10A400F57528 /* Colors.framework */; };
 		FF82CC311C1C10A400F57528 /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82CC301C1C10A400F57528 /* ColorsTests.swift */; };
-		FF82CC3E1C1C156C00F57528 /* ANSIColorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82CC3D1C1C156C00F57528 /* ANSIColorCode.swift */; settings = {ASSET_TAGS = (); }; };
-		FF82CC401C1C164E00F57528 /* ANSIModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82CC3F1C1C164E00F57528 /* ANSIModifiers.swift */; settings = {ASSET_TAGS = (); }; };
-		FF82CC421C1C9C0800F57528 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82CC411C1C9C0800F57528 /* Colors.swift */; settings = {ASSET_TAGS = (); }; };
+		FF82CC3E1C1C156C00F57528 /* ANSIColorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82CC3D1C1C156C00F57528 /* ANSIColorCode.swift */; };
+		FF82CC401C1C164E00F57528 /* ANSIModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82CC3F1C1C164E00F57528 /* ANSIModifiers.swift */; };
+		FF82CC421C1C9C0800F57528 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82CC411C1C9C0800F57528 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,9 +153,11 @@
 				TargetAttributes = {
 					FF82CC201C1C10A400F57528 = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0800;
 					};
 					FF82CC2A1C1C10A400F57528 = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -325,6 +327,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -344,6 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -355,6 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ColorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -366,6 +371,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ColorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
